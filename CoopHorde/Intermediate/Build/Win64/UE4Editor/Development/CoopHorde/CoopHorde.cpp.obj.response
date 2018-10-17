@@ -412,8 +412,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
+/FI"C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\CoopHordeEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\CoopHordeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\CoopHordeEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Source\CoopHorde\CoopHorde.cpp"
-/FI"C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\Definitions.h"
+/FI"C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\Definitions.CoopHorde.h"
 /Fo"C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\CoopHorde.cpp.obj"
 /TP
 /GR-

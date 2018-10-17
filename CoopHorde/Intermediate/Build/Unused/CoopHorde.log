@@ -1,0 +1,19 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for CoopHordeEditor (no existing makefile)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for CoopHordeEditor
+    Running UnrealHeaderTool "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\CoopHorde.uproject" "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\CoopHordeEditor\Development\CoopHordeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CoopHordeEditor in 11.9943891 seconds
+  Deleting old hot reload file: "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Binaries\Win64\UE4Editor-CoopHorde-8484.dll".
+  Deleting old hot reload file: "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Binaries\Win64\UE4Editor-CoopHorde-8484.pdb".
+  Deleting old hot reload file: "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Binaries\Win64\UE4Editor-CoopHorde-9159.dll".
+  Deleting old hot reload file: "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Binaries\Win64\UE4Editor-CoopHorde-9159.pdb".
+  Building 4 actions with 8 processes...
+    [1/4] SCharacter.gen.cpp
+    [2/4] SCharacter.cpp
+    [3/4] UE4Editor-CoopHorde.lib
+       Creating library C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.lib and object C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.exp
+    [4/4] UE4Editor-CoopHorde.dll
+       Creating library C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.suppressed.lib and object C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.suppressed.exp
+  Deploying CoopHordeEditor Win64 Development...
+  Total build time: 22.20 seconds (Parallel executor: 2.16 seconds)
