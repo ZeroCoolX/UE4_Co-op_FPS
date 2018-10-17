@@ -1,4 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Parsing headers for CoopHordeEditor
+    Running UnrealHeaderTool "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\CoopHorde.uproject" "C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\CoopHordeEditor\Development\CoopHordeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CoopHordeEditor in 26.3293947 seconds
+  Building 4 actions with 8 processes...
+    [1/4] SCharacter.gen.cpp
+    [2/4] SCharacter.cpp
+    [3/4] UE4Editor-CoopHorde.lib
+       Creating library C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.lib and object C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.exp
+    [4/4] UE4Editor-CoopHorde.dll
+       Creating library C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.suppressed.lib and object C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Intermediate\Build\Win64\UE4Editor\Development\CoopHorde\UE4Editor-CoopHorde.suppressed.exp
   Deploying CoopHordeEditor Win64 Development...
-  Total build time: 2.59 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 31.17 seconds (Parallel executor: 2.40 seconds)
