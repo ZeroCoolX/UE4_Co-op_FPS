@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "SCharacter.generated.h"
 
+class UCameraComponent;
+class USpringArmComponent;
+
 UCLASS()
 class COOPHORDE_API ASCharacter : public ACharacter
 {
@@ -23,6 +26,12 @@ protected:
 	void MoveForward(float MoveAmount);
 
 	void MoveRight(float MoveAmount);
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
+	UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USpringArmComponent* SpringArmComponent;
 
 public:	
 	// Called every frame

@@ -1,4 +1,4 @@
-﻿Log file open, 10/16/18 23:30:49
+﻿Log file open, 10/17/18 17:33:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CoopHorde
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.321031
+LogStats: Stats thread started at 0.442034
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.145s to configure plugins.
+LogStreaming: Display: Took  0.155s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -121,7 +121,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal 
+LogInit: Command Line:  -skipcompile
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -145,217 +145,272 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.17-04.30.49:677][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-04.30.49:677][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.17-04.30.49:697][  0]LogHAL: Display: Platform has ~ 16 GB [17071697920 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.17-04.30.49:697][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.17-04.30.49:697][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.17-04.30.49:697][  0]LogInit: Computer: MITINZ
-[2018.10.17-04.30.49:697][  0]LogInit: User: Mitinz
-[2018.10.17-04.30.49:697][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.17-04.30.49:697][  0]LogInit: High frequency timer resolution =3.919379 MHz
-[2018.10.17-04.30.49:698][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.10.17-04.30.49:698][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.17-04.30.49:698][  0]LogMemory: Process Physical Memory: 99.60 MB used, 99.60 MB peak
-[2018.10.17-04.30.49:698][  0]LogMemory: Process Virtual Memory: 91.11 MB used, 91.11 MB peak
-[2018.10.17-04.30.49:698][  0]LogMemory: Physical Memory: 7759.82 MB used,  8521.02 MB free, 16280.84 MB total
-[2018.10.17-04.30.49:698][  0]LogMemory: Virtual Memory: 4645.13 MB used,  8521.02 MB free, 134217728.00 MB total
-[2018.10.17-04.30.49:719][  0]LogInit: Using OS detected language (en-US).
-[2018.10.17-04.30.49:720][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.17-04.30.49:721][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.17-04.30.50:223][  0]LogStreaming: Display: Took  0.503s to InitEngineTextLocalization.
-[2018.10.17-04.30.50:223][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.17-04.30.50:280][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.17-04.30.50:280][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.17-04.30.50:539][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-04.30.50:539][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.17-04.30.50:629][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.10.17-04.30.50:629][  0]LogD3D11RHI:       6052/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.10.17-04.30.50:631][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.17-04.30.50:631][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.17-04.30.50:631][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.17-04.30.50:643][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.17-04.30.50:643][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.17-04.30.50:643][  0]LogWindows: EnumDisplayDevices:
-[2018.10.17-04.30.50:643][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.10.17-04.30.50:644][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.10.17-04.30.50:644][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.10.17-04.30.50:644][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.10.17-04.30.50:644][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.10.17-04.30.50:644][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.10.17-04.30.50:644][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
-[2018.10.17-04.30.50:644][  0]LogD3D11RHI:      Driver Date: 6-1-2018
-[2018.10.17-04.30.50:644][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.10.17-04.30.50:707][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.17-04.30.50:755][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.17-04.30.50:855][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Intermediate/Shaders/WorkingDirectory/10048/).
-[2018.10.17-04.30.50:855][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mitinz/AppData/Local/Temp/UnrealShaderWorkingDir/A7A7116746F5CF9EC6B745B5F350D6ED/'.
-[2018.10.17-04.30.51:207][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.17-04.30.51:228][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.17-04.30.51:249][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.17-04.30.51:270][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.17-04.30.51:291][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.17-04.30.51:318][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.17-04.30.51:341][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.17-04.30.51:367][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.17-04.30.51:377][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-04.30.51:503][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.17-04.30.51:579][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-04.30.51:579][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-04.30.51:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-04.30.51:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-04.30.51:634][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.17-04.30.51:653][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.17-04.30.51:674][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.17-04.30.51:694][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.17-04.30.51:709][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.17-04.30.51:709][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.17-04.30.51:798][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.17-04.30.51:798][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.17-04.30.51:798][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.17-04.30.52:883][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.17-04.30.52:972][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Mitinz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.17-04.30.52:972][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mitinz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.17-04.30.52:972][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.17-04.30.52:972][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.17-04.30.52:972][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.17-04.30.52:972][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.17-04.30.52:987][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.17-04.30.53:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mitinz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.17-04.30.53:000][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.17-04.30.53:000][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.17-04.30.53:027][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.17-04.30.53:029][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.17-04.30.53:029][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.17-04.30.53:120][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
-[2018.10.17-04.30.53:635][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-04.30.53:804][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.17-04.30.53:809][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.17-04.30.53:809][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.17-04.30.53:809][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.17-04.30.53:809][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.17-04.30.53:835][  0]LogNetVersion: CoopHorde 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 641387925)
-[2018.10.17-04.30.54:484][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.161499 seconds
-[2018.10.17-04.30.54:493][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.17-04.30.54:493][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.17-04.30.54:493][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.17-04.30.55:593][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.17-04.30.55:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.17-04.30.55:781][  0]SourceControl: Source control is disabled
-[2018.10.17-04.30.55:781][  0]SourceControl: Source control is disabled
-[2018.10.17-04.30.55:782][  0]SourceControl: Source control is disabled
-[2018.10.17-04.30.55:784][  0]SourceControl: Source control is disabled
-[2018.10.17-04.30.55:985][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.17-04.30.56:078][  0]LogOcInput: OculusInput pre-init called
-[2018.10.17-04.30.56:158][  0]LogEngine: Initializing Engine...
-[2018.10.17-04.30.56:159][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-04.30.56:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.17-04.30.56:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-04.30.56:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.17-04.30.56:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-04.30.56:420][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.17-04.30.56:441][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.17-04.30.56:537][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-04.30.56:584][  0]LogInit: FAudioDevice initialized.
-[2018.10.17-04.30.56:584][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.17-04.30.56:695][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/Mitinz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.17-04.30.56:713][  0]LogInit: Texture streaming: Enabled
-[2018.10.17-04.30.56:741][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.17-04.30.56:767][  0]LogInit: Transaction tracking system initialized
-[2018.10.17-04.30.56:805][  0]BlueprintLog: New page: Editor Load
-[2018.10.17-04.30.56:922][  0]LocalizationService: Localization service is disabled
-[2018.10.17-04.30.57:264][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.17-04.30.57:264][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.17-04.30.57:264][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.17-04.30.57:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.17-04.30.57:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-04.30.57:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.17-04.30.57:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-04.30.57:431][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/' took 0.01s
-[2018.10.17-04.30.57:443][  0]SourceControl: Source control is disabled
-[2018.10.17-04.30.57:443][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-04.30.57:444][  0]LightingResults: New page: Lighting Build
-[2018.10.17-04.30.57:449][  0]MapCheck: New page: Map Check
-[2018.10.17-04.30.57:449][  0]LightingResults: New page: Lighting Build
-[2018.10.17-04.30.57:821][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.10.17-04.30.57:830][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-04.30.57:918][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-04.30.58:009][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.856ms to complete.
-[2018.10.17-04.30.58:009][  0]LogFileHelpers: Loading map 'Template_Default' took 0.566
-[2018.10.17-04.30.58:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-04.30.58:156][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-04.30.58:166][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-04.30.58:176][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-04.30.58:186][  0]LogCollectionManager: Loaded 0 collections in 0.002909 seconds
-[2018.10.17-04.30.58:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/Collections/' took 0.01s
-[2018.10.17-04.30.58:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Developers/Mitinz/Collections/' took 0.01s
-[2018.10.17-04.30.58:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Collections/' took 0.01s
-[2018.10.17-04.30.58:238][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.17-04.30.58:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2573 classes and 606 folders.
-[2018.10.17-04.30.58:266][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.10.17-04.30.58:340][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.10.17-04.30.58:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.10.17-04.30.58:366][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.17-04.30.58:369][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.17-04.30.58:377][  0]LogSlate: Took 0.000453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.17-04.30.58:485][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-04.30.58:662][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.10.17-04.30.58:662][  0]LogLoad: (Engine Initialization) Total time: 11.35 seconds
-[2018.10.17-04.30.58:662][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.17-04.30.58:672][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.17-04.30.58:694][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.17-04.30.58:735][  1]LogAssetRegistry: Asset discovery search completed in 5.6385 seconds
-[2018.10.17-04.30.58:737][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.10.17-04.30.58:738][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
-[2018.10.17-04.31.01:337][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-04.31.02:714][467]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-04.31.04:005][619]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-04.31.04:042][619]LogAIModule: Creating AISystem for world DevMap
-[2018.10.17-04.31.04:048][619]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/DevMap.DevMap
-[2018.10.17-04.31.04:173][619]Cmd: MAP LOAD FILE="../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-04.31.04:173][619]LightingResults: New page: Lighting Build
-[2018.10.17-04.31.04:174][619]LoadErrors: New page: Loading map: DevMap.umap
-[2018.10.17-04.31.04:174][619]MapCheck: New page: Map Check
-[2018.10.17-04.31.04:174][619]LightingResults: New page: Lighting Build
-[2018.10.17-04.31.04:303][619]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-04.31.04:454][619]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-04.31.04:557][619]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.654ms to complete.
-[2018.10.17-04.31.04:559][619]LogFileHelpers: Loading map 'DevMap' took 0.387
-[2018.10.17-04.31.06:114][757]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMapFDD990CA4EBE3B68E012C2B0C156F732.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap.umap'
-[2018.10.17-04.31.06:148][757]LogFileHelpers: Saving map 'DevMap' took 0.249
-[2018.10.17-04.31.15:244][842]Candidate modules for hot reload:
-[2018.10.17-04.31.15:244][842]  CoopHorde
-[2018.10.17-04.31.15:244][842]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CoopHorde,8766 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/CoopHorde.uproject" -canskiplink "C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/CoopHorde.uproject" ]
-[2018.10.17-04.31.15:248][842]Warning: Starting HotReload took  0.0s.
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: New page: Compilation - Oct 16, 2018, 6:31:24 PM
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: Creating makefile for hot reloading CoopHordeEditor (modules to compile have changed)
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: Compiling game modules for hot reload
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: Target is up to date
-[2018.10.17-04.31.24:593][957]CompilerResultsLog: Total build time: 9.01 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.10.17-04.31.24:593][957]LogMainFrame: MainFrame: Module compiling took 9.361 seconds
-[2018.10.17-04.31.24:740][957]LogContentBrowser: Native class hierarchy populated in 0.0200 seconds. Added 2574 classes and 608 folders.
-[2018.10.17-04.31.24:741][957]Display: HotReload took  9.5s.
-[2018.10.17-04.31.40:046][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.17-22.33.06:232][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-22.33.06:232][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.17-22.33.06:254][  0]LogHAL: Display: Platform has ~ 16 GB [17071697920 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.17-22.33.06:254][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.17-22.33.06:254][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.17-22.33.06:255][  0]LogInit: Computer: MITINZ
+[2018.10.17-22.33.06:255][  0]LogInit: User: Mitinz
+[2018.10.17-22.33.06:255][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.17-22.33.06:255][  0]LogInit: High frequency timer resolution =3.919379 MHz
+[2018.10.17-22.33.06:256][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.17-22.33.06:256][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.17-22.33.06:256][  0]LogMemory: Process Physical Memory: 100.91 MB used, 100.91 MB peak
+[2018.10.17-22.33.06:256][  0]LogMemory: Process Virtual Memory: 91.16 MB used, 91.16 MB peak
+[2018.10.17-22.33.06:256][  0]LogMemory: Physical Memory: 6116.86 MB used,  10163.98 MB free, 16280.84 MB total
+[2018.10.17-22.33.06:256][  0]LogMemory: Virtual Memory: 4645.13 MB used,  10163.98 MB free, 134217728.00 MB total
+[2018.10.17-22.33.06:406][  0]LogInit: Using OS detected language (en-US).
+[2018.10.17-22.33.06:406][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.17-22.33.06:407][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.17-22.33.06:891][  0]LogStreaming: Display: Took  0.485s to InitEngineTextLocalization.
+[2018.10.17-22.33.06:891][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.17-22.33.06:934][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.17-22.33.06:934][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.17-22.33.07:194][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-22.33.07:194][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.17-22.33.07:315][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.10.17-22.33.07:315][  0]LogD3D11RHI:       6052/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.17-22.33.07:321][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.17-22.33.07:321][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.17-22.33.07:321][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.17-22.33.07:334][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.17-22.33.07:334][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.17-22.33.07:334][  0]LogWindows: EnumDisplayDevices:
+[2018.10.17-22.33.07:334][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.10.17-22.33.07:335][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.10.17-22.33.07:335][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.17-22.33.07:335][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.17-22.33.07:336][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.17-22.33.07:336][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.10.17-22.33.07:336][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.10.17-22.33.07:336][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.10.17-22.33.07:336][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.10.17-22.33.07:403][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.17-22.33.07:459][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.17-22.33.07:558][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Intermediate/Shaders/WorkingDirectory/7580/).
+[2018.10.17-22.33.07:558][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mitinz/AppData/Local/Temp/UnrealShaderWorkingDir/9C9BA178451A194B48B2D4A2E3C1566B/'.
+[2018.10.17-22.33.07:887][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.17-22.33.07:910][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.17-22.33.07:935][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.17-22.33.07:959][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.17-22.33.07:982][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.17-22.33.08:006][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.17-22.33.08:033][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.17-22.33.08:062][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.17-22.33.08:077][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:210][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-22.33.08:214][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.17-22.33.08:314][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-22.33.08:314][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-22.33.08:355][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-22.33.08:355][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-22.33.08:377][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.17-22.33.08:398][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.17-22.33.08:420][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.17-22.33.08:444][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.17-22.33.08:461][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.17-22.33.08:461][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.17-22.33.08:610][  0]LogXGEController: Cleaning working directory: C:/Users/Mitinz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.17-22.33.08:610][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.17-22.33.08:610][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.17-22.33.08:610][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.17-22.33.09:783][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.17-22.33.09:879][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Mitinz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.17-22.33.09:880][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mitinz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.17-22.33.09:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.17-22.33.09:880][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.17-22.33.09:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.17-22.33.09:881][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.17-22.33.09:902][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.17-22.33.09:917][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mitinz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.17-22.33.09:917][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.17-22.33.09:917][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.17-22.33.09:946][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.17-22.33.09:948][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.17-22.33.09:949][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.17-22.33.10:047][  0]LogAssetRegistry: FAssetRegistry took 0.0312 seconds to start up
+[2018.10.17-22.33.10:579][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-22.33.10:780][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.17-22.33.10:789][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.17-22.33.10:789][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.17-22.33.10:789][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.17-22.33.10:789][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.17-22.33.10:819][  0]LogNetVersion: CoopHorde 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 641387925)
+[2018.10.17-22.33.11:596][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.157791 seconds
+[2018.10.17-22.33.11:605][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.17-22.33.11:605][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.17-22.33.11:605][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.17-22.33.12:825][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.17-22.33.12:845][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.17-22.33.13:088][  0]SourceControl: Source control is disabled
+[2018.10.17-22.33.13:089][  0]SourceControl: Source control is disabled
+[2018.10.17-22.33.13:093][  0]SourceControl: Source control is disabled
+[2018.10.17-22.33.13:096][  0]SourceControl: Source control is disabled
+[2018.10.17-22.33.13:403][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.17-22.33.13:553][  0]LogOcInput: OculusInput pre-init called
+[2018.10.17-22.33.13:645][  0]LogEngine: Initializing Engine...
+[2018.10.17-22.33.13:647][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-22.33.13:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.17-22.33.13:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-22.33.13:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.17-22.33.13:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-22.33.14:008][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.17-22.33.14:030][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.17-22.33.14:051][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-22.33.14:116][  0]LogInit: FAudioDevice initialized.
+[2018.10.17-22.33.14:117][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.17-22.33.14:225][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/Mitinz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.17-22.33.14:242][  0]LogInit: Texture streaming: Enabled
+[2018.10.17-22.33.14:281][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.17-22.33.14:281][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={4F9EAF42-46F0-A30A-45CB-65BBE77552DD}
+[2018.10.17-22.33.14:297][  0]LogInit: Transaction tracking system initialized
+[2018.10.17-22.33.14:348][  0]BlueprintLog: New page: Editor Load
+[2018.10.17-22.33.14:515][  0]LocalizationService: Localization service is disabled
+[2018.10.17-22.33.14:907][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.17-22.33.14:908][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.17-22.33.14:908][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.17-22.33.14:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.17-22.33.14:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-22.33.14:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.17-22.33.14:908][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/' took 0.02s
+[2018.10.17-22.33.14:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-22.33.15:175][  0]SourceControl: Source control is disabled
+[2018.10.17-22.33.15:176][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-22.33.15:176][  0]LightingResults: New page: Lighting Build
+[2018.10.17-22.33.15:181][  0]MapCheck: New page: Map Check
+[2018.10.17-22.33.15:181][  0]LightingResults: New page: Lighting Build
+[2018.10.17-22.33.15:564][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.17-22.33.15:578][  0]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2018.10.17-22.33.15:699][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-22.33.15:793][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.287ms to complete.
+[2018.10.17-22.33.15:793][  0]LogFileHelpers: Loading map 'Template_Default' took 0.617
+[2018.10.17-22.33.15:951][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.33.15:962][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.33.15:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.33.15:983][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.33.15:996][  0]LogCollectionManager: Loaded 0 collections in 0.003323 seconds
+[2018.10.17-22.33.16:056][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/Collections/' took 0.01s
+[2018.10.17-22.33.16:056][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Developers/Mitinz/Collections/' took 0.01s
+[2018.10.17-22.33.16:056][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Collections/' took 0.01s
+[2018.10.17-22.33.16:056][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.17-22.33.16:073][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2573 classes and 606 folders.
+[2018.10.17-22.33.16:085][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.17-22.33.16:158][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.17-22.33.16:169][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.10.17-22.33.16:191][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.17-22.33.16:195][  0]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.17-22.33.16:202][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.17-22.33.16:310][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.17-22.33.16:532][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.17-22.33.16:532][  0]LogLoad: (Engine Initialization) Total time: 12.99 seconds
+[2018.10.17-22.33.16:532][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.17-22.33.16:571][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.17-22.33.16:631][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-22.33.16:749][  2]LogAssetRegistry: Asset discovery search completed in 6.7254 seconds
+[2018.10.17-22.33.16:751][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.17-22.33.16:751][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000194 seconds (updated 0 objects)
+[2018.10.17-22.33.19:412][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.33.20:117][ 81]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-22.33.20:162][ 81]LogAIModule: Creating AISystem for world DevMap
+[2018.10.17-22.33.20:169][ 81]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/DevMap.DevMap
+[2018.10.17-22.33.20:291][ 81]Cmd: MAP LOAD FILE="../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-22.33.20:291][ 81]LightingResults: New page: Lighting Build
+[2018.10.17-22.33.20:292][ 81]LoadErrors: New page: Loading map: DevMap.umap
+[2018.10.17-22.33.20:293][ 81]MapCheck: New page: Map Check
+[2018.10.17-22.33.20:293][ 81]LightingResults: New page: Lighting Build
+[2018.10.17-22.33.20:416][ 81]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.17-22.33.20:583][ 81]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-22.33.20:684][ 81]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.318ms to complete.
+[2018.10.17-22.33.20:686][ 81]LogFileHelpers: Loading map 'DevMap' took 0.397
+[2018.10.17-22.33.25:338][610]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.17-22.33.26:188][687]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerPawn_C (BP_PlayerPawn)
+[2018.10.17-22.33.37:906][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.33.38:935][322]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2018.10.17-22.33.39:636][322]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.10.17-22.33.49:372][302]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2018.10.17-22.33.49:812][302]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.17-22.33.50:702][395]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2018.10.17-22.33.58:978][157]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.17-22.33.59:326][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.34.43:828][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.35.43:512][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.36.07:108][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.36.07:176][378]BlueprintLog: New page: Compile BP_PlayerPawn
+[2018.10.17-22.36.07:879][378]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/BP_PlayerPawnD08A6E54414F41E5D1C9D9A4D9B7E3A8.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Blueprints/BP_PlayerPawn.uasset'
+[2018.10.17-22.36.08:873][489]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/BP_PlayerPawnEDF436DB427A1508E0A1958953C5A7BD.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Blueprints/BP_PlayerPawn.uasset'
+[2018.10.17-22.37.18:482][370]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2018.10.17-22.37.39:337][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.37.39:412][247]BlueprintLog: New page: Compile BP_PlayerPawn
+[2018.10.17-22.37.40:040][247]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/BP_PlayerPawn3D161D94429EE187F0A12E9764EA34E3.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Blueprints/BP_PlayerPawn.uasset'
+[2018.10.17-22.37.40:625][309]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/BP_PlayerPawn63E0F730422868FDE7B7D2B76E1EBB4D.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Blueprints/BP_PlayerPawn.uasset'
+[2018.10.17-22.37.49:754][224]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.17-22.37.49:784][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.17-22.37.49:799][224]PIE: New page: PIE session: DevMap (Oct 17, 2018, 12:37:49 PM)
+[2018.10.17-22.37.49:799][224]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2018.10.17-22.37.49:804][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004564s)
+[2018.10.17-22.37.49:805][224]LogAIModule: Creating AISystem for world DevMap
+[2018.10.17-22.37.49:805][224]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2018.10.17-22.37.49:805][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.006612s)
+[2018.10.17-22.37.49:983][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-22.37.50:025][224]LogInit: FAudioDevice initialized.
+[2018.10.17-22.37.50:074][224]LogLoad: Game class is 'GameModeBase'
+[2018.10.17-22.37.50:077][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2018.10.17-17.37.50
+[2018.10.17-22.37.50:077][224]LogWorld: Bringing up level for play took: 0.001015
+[2018.10.17-22.37.50:098][224]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.10.17-22.37.50:099][224]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMap -0.52
+[2018.10.17-22.38.11:856][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.38.11:901][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.17-22.38.12:004][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.38.12:045][829]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.17-22.38.12:594][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.38.12:848][898]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMapD5FFDB9F4DB505CF336B879E91FE5260.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap.umap'
+[2018.10.17-22.38.12:897][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap_BuiltData" FILE="../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap_BuiltData.uasset" SILENT=true
+[2018.10.17-22.38.12:931][898]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMap_BuiltDataD6DD186F4217614CCC46C08BA5250ED0.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap_BuiltData.uasset'
+[2018.10.17-22.38.16:666][915]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.17-22.38.16:691][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.17-22.38.16:692][915]PIE: New page: PIE session: DevMap (Oct 17, 2018, 12:38:16 PM)
+[2018.10.17-22.38.16:692][915]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2018.10.17-22.38.16:696][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003725s)
+[2018.10.17-22.38.16:697][915]LogAIModule: Creating AISystem for world DevMap
+[2018.10.17-22.38.16:698][915]LogPlayLevel: PIE: World Init took: (0.001261s)
+[2018.10.17-22.38.16:698][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005689s)
+[2018.10.17-22.38.16:825][915]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-22.38.16:869][915]LogInit: FAudioDevice initialized.
+[2018.10.17-22.38.16:907][915]LogLoad: Game class is 'GameModeBase'
+[2018.10.17-22.38.16:909][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2018.10.17-17.38.16
+[2018.10.17-22.38.16:909][915]LogWorld: Bringing up level for play took: 0.001063
+[2018.10.17-22.38.16:923][915]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMap 0.305
+[2018.10.17-22.38.17:415][968]LogSlate: Took 0.009091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.10.17-22.38.22:937][610]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-22.38.31:374][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.38.31:423][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.17-22.38.31:504][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-22.38.31:544][623]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.10.17-22.38.32:261][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-22.38.32:508][715]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMapAB2F2CCC442DDCC8A127E6B671D275C6.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap.umap'
+[2018.10.17-22.38.32:557][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap_BuiltData" FILE="../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap_BuiltData.uasset" SILENT=true
+[2018.10.17-22.38.32:577][715]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMap_BuiltDataBF4729D849215016E977CEB4D504E39B.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap_BuiltData.uasset'
+[2018.10.17-22.39.22:124][197]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMap8304460E4A2DFCDF5BA9A6BDA9920DFB.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap.umap'
+[2018.10.17-22.39.22:182][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap_BuiltData" FILE="../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap_BuiltData.uasset" SILENT=true
+[2018.10.17-22.39.22:203][197]LogSavePackage: Moving '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Saved/DevMap_BuiltData4FCBC62A47F657B0A7C69E81604F9236.tmp' to '../../../../../../Users/Mitinz/Documents/development/Udemy_FPSSMultiplayer/CoopHorde/Content/Maps/DevMap_BuiltData.uasset'

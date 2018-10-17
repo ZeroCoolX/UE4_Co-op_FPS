@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COOPHORDE_SCharacter_generated_h
 
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_RPC_WRAPPERS
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_RPC_WRAPPERS
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend struct Z_Construct_UClass_ASCharacter_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ASCharacter)
 
 
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_INCLASS \
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend struct Z_Construct_UClass_ASCharacter_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ASCharacter)
 
 
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASCharacter) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASCharacter(ASCharacter&&); \
@@ -57,26 +57,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASCharacter)
 
 
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_PRIVATE_PROPERTY_OFFSET
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_9_PROLOG
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_GENERATED_BODY_LEGACY \
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ASCharacter, CameraComp); } \
+	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(ASCharacter, SpringArmComponent); }
+
+
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_PROLOG
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_RPC_WRAPPERS \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_INCLASS \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_STANDARD_CONSTRUCTORS \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_RPC_WRAPPERS \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_INCLASS \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_GENERATED_BODY \
+#define CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	CoopHorde_Source_CoopHorde_Public_SCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	CoopHorde_Source_CoopHorde_Public_SCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

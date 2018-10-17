@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeCoopHorde_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/CoopHorde",
 				PKG_CompiledIn | 0x00000000,
-				0xAE599CA2,
+				0x7C4BA7AE,
 				0x174E8BFD,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
