@@ -18,6 +18,7 @@ ASCharacter::ASCharacter()
 	// Enable support for crouching
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 
+	// Other cooper I hope you see this and nothing broke
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
 	CameraComp->SetupAttachment(SpringArmComponent);
 
@@ -32,12 +33,12 @@ void ASCharacter::BeginPlay()
 
 void ASCharacter::MoveForward(float MoveAmount)
 {
-	AddMovementInput(GetActorForwardVector() * MoveAmount);
+	AddMovementInput(GetActorRightVector() * MoveAmount);
 }
 
 void ASCharacter::MoveRight(float MoveAmount)
 {
-	AddMovementInput(GetActorRightVector() * MoveAmount);
+	AddMovementInput(GetActorForwardVector() * MoveAmount);
 }
 
 void ASCharacter::BeginCrouch()
