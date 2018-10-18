@@ -1,3 +1,0 @@
-C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Source\CoopHorde\CoopHorde.Build.cs
-C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Source\CoopHorde.Target.cs
-C:\Users\Mitinz\Documents\development\Udemy_FPSSMultiplayer\CoopHorde\Source\CoopHordeEditor.Target.cs
